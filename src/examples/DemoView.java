@@ -1,4 +1,4 @@
-package com.hopding.jrpicam.examples;
+package jrpicam.examples;
 
 import java.awt.EventQueue;
 import java.awt.Font;

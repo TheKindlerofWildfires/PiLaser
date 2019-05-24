@@ -1,4 +1,4 @@
-package com.hopding.jrpicam.examples;
+package examples;
 
 import java.io.File;
 import java.io.IOException;

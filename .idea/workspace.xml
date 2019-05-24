@@ -2,27 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="700aef9e-0dc2-46b4-a897-30c3cfa324fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ImageDisplayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LazerClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LazerProtocol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LazerServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RPiCamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/AWB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/DRC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Encoding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/Exposure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/ImageEffect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/MeteringMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/DemoView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/ShootBufferedStill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/ShootStill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/examples/ShootTimelapse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/FailedToRunRaspistillException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jrpicam_1_1_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiLazer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PiLazer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PiLazer/ImageDisplayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PiLazer/ImageDisplayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/AWB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/AWB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/DRC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/DRC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/Encoding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/Encoding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/Exposure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/Exposure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/ImageEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/ImageEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/MeteringMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/MeteringMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/DemoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/DemoView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/ShootBufferedStill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/ShootBufferedStill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/ShootStill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/ShootStill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/examples/ShootTimelapse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/examples/ShootTimelapse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/FailedToRunRaspistillException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/FailedToRunRaspistillException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,55 +28,91 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LazerServer.java">
+        <entry file="file://$PROJECT_DIR$/src/examples/ShootStill.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/ShootBufferedStill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/DemoView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/FailedToRunRaspistillException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/enums/AWB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/enums/DRC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/enums/Encoding.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/enums/Exposure.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/enums/ImageEffect.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ImageDisplayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LazerClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Info">
+        <entry file="file://$PROJECT_DIR$/src/enums/MeteringMode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="142" selection-start-column="142" selection-end-column="142" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LazerProtocol.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -112,6 +142,17 @@
         <option value="$PROJECT_DIR$/src/LazerProtocol.java" />
         <option value="$PROJECT_DIR$/src/LazerServer.java" />
         <option value="$PROJECT_DIR$/src/ImageDisplayer.java" />
+        <option value="$PROJECT_DIR$/src/examples/ShootTimelapse.java" />
+        <option value="$PROJECT_DIR$/src/examples/ShootStill.java" />
+        <option value="$PROJECT_DIR$/src/examples/ShootBufferedStill.java" />
+        <option value="$PROJECT_DIR$/src/examples/DemoView.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/FailedToRunRaspistillException.java" />
+        <option value="$PROJECT_DIR$/src/enums/AWB.java" />
+        <option value="$PROJECT_DIR$/src/enums/DRC.java" />
+        <option value="$PROJECT_DIR$/src/enums/Encoding.java" />
+        <option value="$PROJECT_DIR$/src/enums/Exposure.java" />
+        <option value="$PROJECT_DIR$/src/enums/ImageEffect.java" />
+        <option value="$PROJECT_DIR$/src/enums/MeteringMode.java" />
       </list>
     </option>
   </component>
@@ -144,6 +185,18 @@
               <item name="PiLazer" type="b2602c69:ProjectViewProjectNode" />
               <item name="PiLazer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PiLazer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiLazer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PiLazer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PiLazer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="exceptions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -152,6 +205,12 @@
       </pane>
       <pane id="PackagesPane" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/jrpicam-1.1.1.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -170,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ShootTimelapse (1)">
     <configuration name="ImageDisplayer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ImageDisplayer" />
       <module name="PiLazer" />
@@ -178,8 +237,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShootTimelapse (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="examples.ShootTimelapse" />
+      <module name="PiLazer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShootTimelapse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hopding.jrpicam.examples.ShootTimelapse" />
+      <module name="PiLazer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hopding.jrpicam.examples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShootTimelapse (1)" />
+        <item itemvalue="Application.ShootTimelapse" />
         <item itemvalue="Application.ImageDisplayer" />
       </list>
     </recent_temporary>
@@ -199,6 +286,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Favorites" side_tool="true" />
@@ -291,5 +379,153 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RPiCamera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/ShootTimelapse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/ShootStill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/ShootBufferedStill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/DemoView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/FailedToRunRaspistillException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/AWB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/DRC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/Encoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/Exposure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/ImageEffect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enums/MeteringMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PiLazer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jrpicam-1.1.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
