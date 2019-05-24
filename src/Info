@@ -1,0 +1,1 @@
+So the way this works is the raspi sets itself up as a server, you send it commands and it sends back an image after executing those commands.
