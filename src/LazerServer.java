@@ -29,11 +29,12 @@ public class LazerServer {
             LazerProtocol lazerProtocol = new LazerProtocol();
             output = lazerProtocol.processInput(null); //Adjust this method
 
-            out.println(output);//Want to display the image actually
-
+            //out.println(output);//Want to display the image actually
+            ImageDisplayer i = new ImageDisplayer();
             while ((input = in.readLine()) != null) { //If I'm still getting input
                 output = lazerProtocol.processInput(input);
-                out.println(output);//Want to display the image actually
+                i.updateImage(output);
+                //out.println(output);//Want to display the image actually
                 if (output.equals("End")) //Will want a different exit code
                     break;
             }
